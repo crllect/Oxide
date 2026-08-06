@@ -302,7 +302,7 @@ export default function Nav() {
 							<div className="nav-rail-extension absolute right-0 top-0 z-0 h-12 w-100" />
 
 							<div className="absolute right-0 z-10 flex h-full items-center justify-between pr-8">
-								<ul className="no-scrollbar flex min-w-0 flex-nowrap items-center gap-x-10 overflow-x-auto">
+								<ul className="no-scrollbar flex min-w-0 flex-nowrap items-center gap-x-8 overflow-x-auto">
 									{navLinks.map((item) => (
 										<li key={item.label}>
 											{item.external ? (
